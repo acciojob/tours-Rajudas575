@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Loading from "./Loading";
 import Tours from "./Tours";
 import toursData from "./data";
+import "@babel/polyfill";
 
 const App = () => {
     const [loading, setLoading] = useState(true);
